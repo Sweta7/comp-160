@@ -1,0 +1,30 @@
+/* creating support class Box which will calculate
+ * volumeand surface are
+ */
+
+public class Box{
+  private int height;
+   private int width;
+   private int length;
+  
+}
+public void setHeight(int h){
+  height = h;
+}
+public void setWidth(int w){
+  width = w;
+}
+public void setLength(int l){
+  length = l;
+}
+public int getSurfaceArea(int h, int w, int l){
+  return (2h+2w+2l);
+}
+
+public int getVolume(int h, int w, int l){
+  return (h*w*l);
+}
+
+public String toString(){
+  return ("Height is " + h "," + "Length is:" + l ","  );
+  

@@ -1,0 +1,36 @@
+/** SortedStrApp.java  
+  * to produce sorted string
+  * application class with main method     
+  * java Lab 13,COMP160  2017      
+  */   
+import java.util.Scanner;
+/* to enter string from user*/
+public class SortedStrApp{      
+  public static void main(String[]args){
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter a phrase");
+    String s = scan.nextLine();
+    phrase(s);
+    phrase(s);
+  }
+    
+  public static String phrase(String s1){
+    String s=s1.toLowerCase();
+   // String s1= s.toLowerCase();
+    System.out.println(s);  
+  String emptys="";
+  for(char letter='a'; letter<='z'; letter++){
+    for(int index=0; index<s.length(); index++){
+      if (s1.charAt(index)==letter){
+     emptys += letter; 
+    
+      }
+          
+}         
+}
+  System.out.println(emptys);
+   return s1;
+  }
+}
+
+ //String s = scan.nextLine().toLowerCase();

@@ -1,0 +1,9 @@
+/* appliaction class for box is created.
+ */
+
+public class BoxApp{
+  public static void main(String[] args){
+    Box box1 = new Box();
+    box1.display();
+  }
+}

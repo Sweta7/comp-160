@@ -1,0 +1,36 @@
+public class Customer{ 
+  private String name; 
+  private boolean child ; 
+  private boolean student ; 
+  private boolean booked ; 
+
+//** Constructor for Customer created*/   
+public Customer (String nameIn, int age, boolean studentIn){    
+  name = nameIn;   
+    if (age >= 5 && age<=16){ 
+    child = true; 
+  }else{ 
+    child = false; 
+  } 
+  student = studentIn;   
+ }   
+  
+public String getName(){    
+  return name;   
+}   
+public boolean isChild(){  
+  return child;  
+}  
+public boolean isStudent(){  
+  return student;  
+}   
+public boolean isBooked(){  
+return booked;     
+}   
+public void setBooked(){ 
+  booked= true;
+}
+}
+
+
+ 

@@ -1,0 +1,9 @@
+public class Multiplication{
+ public static void main(String[]args){
+   int[] [] table= new int [12][12];
+   for(row=0;row<12;row++){
+     for(col=0; col<12;col++){
+       table[row][col]= row*col;
+     }
+   }
+ }

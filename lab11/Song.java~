@@ -1,0 +1,27 @@
+public class Song{
+  private String songLine;
+  
+  public Song( String sLine){
+    songLine = sLine;
+  }
+  
+  public String toString(){
+    return songLine;
+  }
+  
+  public void process(){
+    int space1= songLine.indexOf(' ');
+    int space2= songLine.indexOf(space1, ' ');
+    System.out.println("Length is: "+ songLine.length());
+    System.out.println(songLine.charAt(4));
+    
+    System.out.println(songLine.substring(0,8));
+    System.out.println(songLine.substring(9));
+    System.out.println(songLine.charAt(9));
+    System.out.println(songLine.toUpperCase());
+    System.out.println(songLine.replace(' ','x'));
+    System.out.println(songLine.indexOf('b'));
+    System.out.println(songLine);
+                       
+  }
+}

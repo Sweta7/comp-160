@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class RandomApp{
+public static void main(String[]args){ 
+  int lo = readInt("Enter lowest value");
+  int hi = readInt("Enter highest value");
+  RandomRange r = new RandomRange();
+  System.out.println("Random integer between " + lo + " and " + hi + " : " + r.randomRange(lo, hi)); 
+}
+/** appliaction class for box is created.
+ */
+public static int readInt(String message){
+  Scanner sc = new Scanner(System.in);
+  System.out.println(message);
+  return sc.nextInt();
+}
+}
+
+

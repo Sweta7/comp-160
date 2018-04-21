@@ -1,0 +1,26 @@
+ 
+/** EvenApp.java      
+  * application class with main method     
+  * java Lab 12,COMP160  2017      
+  */   
+import java.util.Scanner;
+/* to add 2 and all the intered value by user*/
+public class EvenApp{      
+  public static void main(String[]args){
+    int value=2;
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter an integer greater than 1");
+    int value1 = scan.nextInt();
+    int value2= value+value1;
+      value++;
+     if(value2>=value && value2<=value1){
+           int value2 =
+        
+    System.out.println("Sum of even number between 2 and " + value1 + " is " + (value+value1));// sum of 2 and entered value printed.
+    if (value1<2){
+      System.out.println("Input value must not be less than 2"); // if entered vlaue less than 1 error
+    }
+        
+  }
+}
+    

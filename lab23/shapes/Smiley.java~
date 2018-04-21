@@ -1,0 +1,14 @@
+package shapes; 
+import java.awt.*;  
+public class Smiley extends Shape{ 
+ 
+  public Oval(){
+    height= 4*width;
+  }
+    
+   public void display(Graphics g){    
+    g.setColor(colour);   
+    g.fillOval(x,y, width, height);   
+      
+  }  
+}
